@@ -2,4 +2,25 @@
     width: 30%;
     color: white;
     text-shadow: 1px 1px 1px black;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    margin: 0 0.5rem 0 0;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.info-1{
+    background-image: url('assets/task2-bg.jpeg');
+}
+.info-2{
+    background-image: url('assets/task2-bg1.jpeg');
+}
+.info-3{
+    background-image: url('assets/task2-bg2.jpg');
+}
+.wrap{
+    width: 100%;
+    display: flex;
+    align-content: space-between;
 }
